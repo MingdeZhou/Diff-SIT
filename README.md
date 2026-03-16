@@ -1,9 +1,9 @@
 
 # Efficient Video Diffusion with Sparse Information Transmission for Video Compression
-[Zheng Chen](https://zheng-chen.cn), [Mingde Zhou](https://orcid.org/0009-0003-6642-7349), and [Yulun Zhang](http://yulunzhang.com/), "Efficient Video Diffusion with Sparse Information Transmission for Video Compression"
+[Mingde Zhou](https://orcid.org/0009-0003-6642-7349), [Zheng Chen](https://zheng-chen.cn), and [Yulun Zhang](http://yulunzhang.com/), "Efficient Video Diffusion with Sparse Information Transmission for Video Compression"
 
 <div>
-<a href="https://github.com/z-z-zmd/Diff-SIT/releases" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/downloads/z-z-zmd/Diff-SIT/total?color=green&style=flat"></a>
+<a href="https://github.com/z-z-zmd/Diff-SIT/releases/tag/v1.0" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/downloads/z-z-zmd/Diff-SIT/total?color=green&style=flat"></a>
 <a href="https://github.com/z-z-zmd/Diff-SIT" target='_blank' style="text-decoration: none;"><img src="https://visitor-badge.laobi.icu/badge?page_id=z-z-zmd/Diff-SIT"></a>
 <a href="https://github.com/z-z-zmd/Diff-SIT" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/z-z-zmd/Diff-SIT?style=social"></a>
 </div>
