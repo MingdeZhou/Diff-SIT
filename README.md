@@ -3,13 +3,13 @@
 [Mingde Zhou](https://orcid.org/0009-0003-6642-7349), [Zheng Chen](https://zheng-chen.cn), and [Yulun Zhang](http://yulunzhang.com/), "Efficient Video Diffusion with Sparse Information Transmission for Video Compression"
 
 <div>
-<a href="https://github.com/z-z-zmd/Diff-SIT/releases/tag/v1.0" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/downloads/z-z-zmd/Diff-SIT/total?color=green&style=flat"></a>
-<a href="https://github.com/z-z-zmd/Diff-SIT" target='_blank' style="text-decoration: none;"><img src="https://visitor-badge.laobi.icu/badge?page_id=z-z-zmd/Diff-SIT"></a>
-<a href="https://github.com/z-z-zmd/Diff-SIT" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/z-z-zmd/Diff-SIT?style=social"></a>
+<a href="https://github.com/MingdeZhou/Diff-SIT/releases/tag/v1.0" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/downloads/MingdeZhou/Diff-SIT/total?color=green&style=flat"></a>
+<a href="https://github.com/MingdeZhou/Diff-SIT" target='_blank' style="text-decoration: none;"><img src="https://visitor-badge.laobi.icu/badge?page_id=MingdeZhou/Diff-SIT"></a>
+<a href="https://github.com/MingdeZhou/Diff-SIT" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/MingdeZhou/Diff-SIT?style=social"></a>
 </div>
 
 
-[[project]()] [[arXiv]()] [[supplementary material]()] [dataset] [pretrained models]
+[[project]()] [[arXiv]()] [[supplementary material](https://github.com/MingdeZhou/Diff-SIT/releases/download/v1.0/Supplementary_Material.pdf)] [dataset] [pretrained models]
 
 
 
@@ -19,7 +19,7 @@
 
 ---
 
-> **Abstract:** Video compression aims to maximize reconstruction quality with minimal bitrates. Beyond standard distortion metrics, perceptual quality and temporal consistency are also critical. However, at ultra-low bitrates, traditional end-to-end compression models tend to produce blurry images of poor perceptual quality. Besides, existing generative compression methods often treat video frames independently and show limitations in time coherence and efficiency. To address these challenges, we propose the Efficient Video \textbf{Diff}usion with \textbf{S}parse \textbf{I}nformation \textbf{T}ransmission (Diff-SIT), which comprises the Sparse Temporal Encoding Module (STEM) and the One-Step Video Diffusion with Frame Type Embedder (ODFTE). The STEM sparsely encodes the original frame sequence into an information-rich intermediate sequence, achieving significant bitrate savings. Subsequently, the ODFTE processes this intermediate sequence as a whole, which exploits the temporal correlation. During this process, our proposed Frame Type Embedder (FTE) guides the diffusion model to perform adaptive reconstruction according to different frame types to optimize the overall quality. Extensive experiments demonstrate that Diff-SIT establishes a new state-of-the-art in perceptual quality and temporal consistency, particularly in the challenging ultra-low-bitrate regime.
+> **Abstract:** Video compression aims to maximize reconstruction quality with minimal bitrates. Beyond standard distortion metrics, perceptual quality and temporal consistency are also critical. However, at ultra-low bitrates, traditional end-to-end compression models tend to produce blurry images of poor perceptual quality. Besides, existing generative compression methods often treat video frames independently and show limitations in time coherence and efficiency. To address these challenges, we propose the Efficient Video **Diff**usion with **S**parse **I**nformation **T**ransmission (Diff-SIT), which comprises the Sparse Temporal Encoding Module (STEM) and the One-Step Video Diffusion with Frame Type Embedder (ODFTE). The STEM sparsely encodes the original frame sequence into an information-rich intermediate sequence, achieving significant bitrate savings. Subsequently, the ODFTE processes this intermediate sequence as a whole, which exploits the temporal correlation. During this process, our proposed Frame Type Embedder (FTE) guides the diffusion model to perform adaptive reconstruction according to different frame types to optimize the overall quality. Extensive experiments demonstrate that Diff-SIT establishes a new state-of-the-art in perceptual quality and temporal consistency, particularly in the challenging ultra-low-bitrate regime.
 
 
 ### Pipeline
