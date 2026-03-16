@@ -1,39 +1,36 @@
 
-# Steering One-Step Diffusion Model with Fidelity-Rich Decoder for Fast Image Compression
-[Zheng Chen](https://zheng-chen.cn), [Mingde Zhou](https://orcid.org/0009-0003-6642-7349), [Jinpei Guo](https://jp-guo.github.io/), [Jiale Yuan](https://www.linkedin.com/in/jiale-yuan-0100a0223/), [Ji Yifei](https://github.com/Niax23), and [Yulun Zhang](http://yulunzhang.com/), "Steering One-Step Diffusion Model with Fidelity-Rich Decoder for Fast Image Compression", AAAI, 2026
+# Efficient Video Diffusion with Sparse Information Transmission for Video Compression
+[Zheng Chen](https://zheng-chen.cn), [Mingde Zhou](https://orcid.org/0009-0003-6642-7349), and [Yulun Zhang](http://yulunzhang.com/), "Efficient Video Diffusion with Sparse Information Transmission for Video Compression"
 
 <div>
-<a href="https://github.com/zhengchen1999/SODEC/releases" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/downloads/zhengchen1999/SODEC/total?color=green&style=flat"></a>
-<a href="https://github.com/zhengchen1999/SODEC" target='_blank' style="text-decoration: none;"><img src="https://visitor-badge.laobi.icu/badge?page_id=zhengchen1999/SODEC"></a>
-<a href="https://github.com/zhengchen1999/SODEC" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/zhengchen1999/SODEC?style=social"></a>
+<a href="https://github.com/z-z-zmd/Diff-SIT/releases" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/downloads/z-z-zmd/Diff-SIT/total?color=green&style=flat"></a>
+<a href="https://github.com/z-z-zmd/Diff-SIT" target='_blank' style="text-decoration: none;"><img src="https://visitor-badge.laobi.icu/badge?page_id=z-z-zmd/Diff-SIT"></a>
+<a href="https://github.com/z-z-zmd/Diff-SIT" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/z-z-zmd/Diff-SIT?style=social"></a>
 </div>
 
 
-[[project](https://zhengchen1999.github.io/SODEC)] [[arXiv](https://arxiv.org/abs/2508.04979)] [[supplementary material](https://github.com/zhengchen1999/SODEC/releases/download/v1/Supplementary_Material.pdf)] [dataset] [pretrained models]
+[[project]()] [[arXiv]()] [[supplementary material]()] [dataset] [pretrained models]
 
 
 
 #### 🔥🔥🔥 News
 
-- **2024-11-08:** SODEC is accepted at AAAI 2026. 🎉🎉🎉
-- **2025-8-07:** This repo is released.
+- **2026-3-16:** This repo is released.
 
 ---
 
-> **Abstract:** Diffusion-based image compression has demonstrated impressive perceptual performance. However, it suffers from two critical drawbacks: **(1)** excessive decoding latency due to multi-step sampling, and **(2)** poor fidelity resulting from over-reliance on generative priors. To address these issues, we propose SODEC, a novel single-step diffusion image compression model. We argue that in image compression, a sufficiently informative latent renders multi-step refinement unnecessary. Based on this insight, we leverage a pre-trained VAE-based model to produce latents with rich information, and replace the iterative denoising process with a single-step decoding. Meanwhile, to improve fidelity, we introduce the fidelity guidance module, encouraging outputs that are faithful to the original image. Furthermore, we design the rate annealing training strategy to enable effective training under extremely low bitrates. Extensive experiments show that SODEC significantly outperforms existing methods, achieving superior rate–distortion–perception performance. Moreover, compared to previous diffusion-based compression models, SODEC improves decoding speed by more than 20×.
+> **Abstract:** Video compression aims to maximize reconstruction quality with minimal bitrates. Beyond standard distortion metrics, perceptual quality and temporal consistency are also critical. However, at ultra-low bitrates, traditional end-to-end compression models tend to produce blurry images of poor perceptual quality. Besides, existing generative compression methods often treat video frames independently and show limitations in time coherence and efficiency. To address these challenges, we propose the Efficient Video \textbf{Diff}usion with \textbf{S}parse \textbf{I}nformation \textbf{T}ransmission (Diff-SIT), which comprises the Sparse Temporal Encoding Module (STEM) and the One-Step Video Diffusion with Frame Type Embedder (ODFTE). The STEM sparsely encodes the original frame sequence into an information-rich intermediate sequence, achieving significant bitrate savings. Subsequently, the ODFTE processes this intermediate sequence as a whole, which exploits the temporal correlation. During this process, our proposed Frame Type Embedder (FTE) guides the diffusion model to perform adaptive reconstruction according to different frame types to optimize the overall quality. Extensive experiments demonstrate that Diff-SIT establishes a new state-of-the-art in perceptual quality and temporal consistency, particularly in the challenging ultra-low-bitrate regime.
 
-![](figs/Example.png)
----
 
 ### Pipeline
 
-![](figs/Pipeline.png)
+![](image/Architecture.png)
 
 ---
 
 ### Performance
 
-<img src="figs/Performance.png">
+<img src="image/bubble.png">
 
 ## 🔖 TODO
 
