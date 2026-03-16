@@ -36,7 +36,6 @@
 
 - [ ] Release testing and training code.
 - [ ] Release pre-trained models.
-- [ ] Provide WebUI.
 - [ ] Provide HuggingFace demo.
 
 ## 🔗 Contents
@@ -55,53 +54,39 @@ We achieve impressive performance on image compression tasks.
 <details open>
 <summary>Quantitative Results (click to expand)</summary>
 
-- Results in Fig. 4 of the main paper
+- Results in Fig. 5 of the main paper
 
 <p align="center">
-  <img width="900" src="figs/result_Fig4.png">
+  <img width="900" src="image/mainresult.png">
 </p>
 </details>
 
 <details open>
 <summary>Qualitative Results (click to expand)</summary>
 
-- Results in Fig. 5 of the main paper
+- Results in Fig. 6 of the main paper
 
 <p align="center">
-  <img width="900" src="figs/result_Fig5.png">
+  <img width="900" src="image/visualresult.png">
 </p>
 <details>
 <summary>More Qualitative Results</summary>
 
-- Rate-Distortion-Perception Results (Fig. 4 of the supplementary material)
+Additional visual results (Fig. 3, 4, 5 in supplementary material)
 
 <p align="center">
-  <img width="900" src="figs/more_results4.png">
+  <img width="900" src="image/morevisual1.png">
 </p>
-
-- Visual Comparison Results (Fig. 5 of the supplementary material)
 
 <p align="center">
-  <img width="900" src="figs/more_results3.png">
+  <img width="900" src="image/morevisual2.png">
 </p>
-
-- Extended Qualitative Results (Fig. 6 of the supplementary material)
 
 <p align="center">
-  <img width="900" src="figs/more_results5.png">
+  <img width="900" src="image/morevisual3.png">
 </p>
 
-- Additional Results on DIV2K-val (Fig. 7 of the supplementary material)
 
-<p align="center">
-  <img width="900" src="figs/more_results1.png">
-</p>
-
-- Additional Results on Kodak (Fig. 7 of the supplementary material)
-
-<p align="center">
-  <img width="900" src="figs/more_results2.png">
-</p>
 </details>
 
 </details>
@@ -111,15 +96,10 @@ We achieve impressive performance on image compression tasks.
 If you find the code helpful in your research or work, please cite the following paper(s).
 
 ```
-@inproceedings{chen2026steering,
-  title={Steering One-Step Diffusion Model with Fidelity-Rich Decoder for Fast Image Compression},
-  author={Chen, Zheng and Zhou, Mingde and Guo, Jinpei and Yuan, Jiale and Ji, Yifei and Zhang, Yulun},
-  booktitle={AAAI},
-  year={2026}
-}
+
 ```
 
 ## <a name="acknowledgements"></a>💡 Acknowledgements
 
-This project is based on [HiFiC](https://github.com/Justin-Tan/high-fidelity-generative-compression) and [OSEDiff](https://github.com/cswry/OSEDiff).
+This project is based on [DCVC series](https://github.com/microsoft/DCVC) and [Wan](https://github.com/Wan-Video/Wan2.1).
 
