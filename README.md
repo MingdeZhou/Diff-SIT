@@ -1,6 +1,6 @@
 # Project: SODEC
 
-https://zheng-chen.cn/SODEC/
+[z-z-zmd/Diff-SIT: Repo for paper "Efficient Video Diffusion with Sparse Information Transmission for Video Compression"](https://github.com/z-z-zmd/Diff-SIT)
 
 Steering One-Step Diffusion Model with Fidelity-Rich Decoder for Fast Image Compression
 
@@ -10,5 +10,5 @@ Parts of this project page were adopted from the [Nerfies](https://nerfies.githu
 
 ## Website License
 
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://live.staticflickr.com/65535/54165176831_9ca511e569_o.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-
+  
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
