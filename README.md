@@ -3,9 +3,9 @@
 [Mingde Zhou](https://orcid.org/0009-0003-6642-7349), [Zheng Chen](https://zheng-chen.cn), and [Yulun Zhang](http://yulunzhang.com/), "Efficient Video Diffusion with Sparse Information Transmission for Video Compression"
 
 <div>
-<a href="https://github.com/MingdeZhou/Diff-SIT/releases/tag/v1.0" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/downloads/MingdeZhou/Diff-SIT/total?color=green&style=flat"></a>
-<a href="https://github.com/MingdeZhou/Diff-SIT" target='_blank' style="text-decoration: none;"><img src="https://visitor-badge.laobi.icu/badge?page_id=MingdeZhou/Diff-SIT"></a>
-<a href="https://github.com/MingdeZhou/Diff-SIT" target='_blank' style="text-decoration: none;"><img src="https://img.shields.io/github/stars/MingdeZhou/Diff-SIT?style=social"></a>
+<a href="https://github.com/MingdeZhou/Diff-SIT/releases/tag/v1.0" target="_blank" style="text-decoration: none;"><img src="https://img.shields.io/github/downloads/MingdeZhou/Diff-SIT/total?color=green&style=flat&logo=github&label=downloads" alt="Download count"></a>
+<a href="https://github.com/MingdeZhou/Diff-SIT" target="_blank" style="text-decoration: none;"><img src="https://visitor-badge.laobi.icu/badge?page_id=MingdeZhou/Diff-SIT" alt="Visitors"></a>
+<a href="https://github.com/MingdeZhou/Diff-SIT" target="_blank" style="text-decoration: none;"><img src="https://img.shields.io/github/stars/MingdeZhou/Diff-SIT?style=flat&logo=github&label=Stars" alt="GitHub stars"></a>
 </div>
 
 
