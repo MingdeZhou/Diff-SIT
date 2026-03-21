@@ -9,13 +9,13 @@
 </div>
 
 
-[[project]()] [[arXiv]()] [[supplementary material](https://github.com/MingdeZhou/Diff-SIT/releases/download/v1.0/Supplementary_Material.pdf)] [dataset] [pretrained models]
+[[project]()] [[arXiv](https://arxiv.org/abs/2603.18501)] [[supplementary material](https://github.com/MingdeZhou/Diff-SIT/releases/download/v1.0/Supplementary_Material.pdf)] [dataset] [pretrained models]
 
 
 
 #### 🔥🔥🔥 News
 
-- **2026-3-16:** This repo is released.
+- **2026-3-20:** This repo is released.
 
 ---
 
@@ -91,12 +91,22 @@ Additional visual results (Fig. 3, 4, 5 in supplementary material)
 
 </details>
 
+
+
 ## <a name="citation"></a>📎 Citation
 
 If you find the code helpful in your research or work, please cite the following paper(s).
 
 ```
-
+@misc{zhou2026efficientvideodiffusionsparse,
+      title={Efficient Video Diffusion with Sparse Information Transmission for Video Compression}, 
+      author={Mingde Zhou and Zheng Chen and Yulun Zhang},
+      year={2026},
+      eprint={2603.18501},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2603.18501}, 
+}
 ```
 
 ## <a name="acknowledgements"></a>💡 Acknowledgements
