@@ -49,7 +49,7 @@
 
 ## <a name="results"></a>🔎 Results
 
-We achieve impressive performance on image compression tasks.
+We achieve impressive performance on video compression tasks.
 
 <details open>
 <summary>Quantitative Results (click to expand)</summary>
