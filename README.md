@@ -9,7 +9,7 @@
 </div>
 
 
-[[project]()] [[arXiv](https://arxiv.org/abs/2603.18501)] [[supplementary material](https://github.com/MingdeZhou/Diff-SIT/releases/download/v1.0/Supplementary_Material.pdf)] [dataset] [pretrained models]
+[[project](https://mingdezhou.github.io/Diff-SIT/)] [[arXiv](https://arxiv.org/abs/2603.18501)] [[supplementary material](https://github.com/MingdeZhou/Diff-SIT/releases/download/v1.0/Supplementary_Material.pdf)] [dataset] [pretrained models]
 
 
 
